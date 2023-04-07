@@ -47,6 +47,8 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
 
                 JPanel panel = new JPanel();
                 panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -165,6 +167,9 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
+
                 JTable table;
                 List<Employee> empList;
                 empList = obj.printEmp();
@@ -206,6 +211,8 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
 
                 JPanel panel = new JPanel();
                 panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -244,6 +251,9 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
+
                 JTable table;
                 Map<String, String> posMap;
                 posMap = obj.printPos();
@@ -284,6 +294,8 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
 
                 JPanel panel = new JPanel();
                 panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -338,6 +350,9 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
+
                 JTable table;
                 List<Department> depList;
                 depList = obj.printDep();
@@ -374,6 +389,8 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
 
                 JPanel panel = new JPanel();
                 panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -418,6 +435,8 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.getContentPane().removeAll();
+                frame.getContentPane().revalidate();
+                frame.getContentPane().repaint();
 
                 JTable table;
                 Map<Integer, String> locMap;
